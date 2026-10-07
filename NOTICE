@@ -1,0 +1,6 @@
+Third-party material
+- assets/linuxmint.png: from vinceliuice/grub2-themes (Tela icon set), GPL-3.0.
+  https://github.com/vinceliuice/grub2-themes
+- assets/roboto-*.pf2: GRUB fonts generated from Roboto (Apache License 2.0).
+- Colours: Nord palette (MIT), https://www.nordtheme.com
+- The Linux Mint logo is a trademark of its owners; it is used here only to label the boot entry.

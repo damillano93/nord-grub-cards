@@ -1,0 +1,68 @@
+# Nord GRUB theme "cards": portrait framebuffer (1080x1920), pre-rotated so it reads upright in landscape.
+# Entry names/icons are images (GRUB cannot rotate text); GRUB's own item text is painted in the card
+# colour so it is invisible. GRUB paints later-declared components UNDER earlier ones.
+desktop-image: "background.png"
+desktop-color: "#2e3440"
+title-text: ""
+terminal-font: "Roboto Regular 22"
+terminal-left: "5%"
+terminal-top: "5%"
+terminal-width: "90%"
+terminal-height: "90%"
+terminal-border: "0"
+
++ image {
+    left = 450
+    top = 200
+    file = "card0.png"
+}
+
++ image {
+    left = 450
+    top = 590
+    file = "card1.png"
+}
+
++ image {
+    left = 450
+    top = 980
+    file = "card2.png"
+}
+
++ image {
+    left = 450
+    top = 1370
+    file = "card3.png"
+}
+
++ image {
+    left = 820
+    top = 777
+    file = "title.png"
+}
+
++ image {
+    left = 316
+    top = 629
+    file = "hint.png"
+}
+
++ boot_menu {
+    left = 450
+    top = 200
+    width = 280
+    height = 1580
+    item_font = "Roboto Regular 22"
+    selected_item_font = "Roboto Regular 22"
+    item_color = "#3b4252"
+    selected_item_color = "#5e81ac"
+    item_height = 286
+    item_padding = 0
+    item_spacing = 104
+    item_icon_space = 0
+    icon_width = 1
+    icon_height = 1
+    item_pixmap_style = "item_*.png"
+    selected_item_pixmap_style = "select_*.png"
+    scrollbar = false
+}
